@@ -6,4 +6,10 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),kane)
 
+$(call add-radio-file-sha1-checked,radio/bootloader.img,f06bc035b1326e4174f19365f468b11b7627d3ec)
+$(call add-radio-file-sha1-checked,radio/keystorage.img,ca822317dd69059d8cb45694d4e3a5ede11be96f)
+$(call add-radio-file-sha1-checked,radio/ldfw.img,a226fa177095c097272bd93df2e4affd14484dd0)
+$(call add-radio-file-sha1-checked,radio/logo.img,5d28da59122b2f87a745f11b4a334586e396bfba)
+$(call add-radio-file-sha1-checked,radio/modem.img,592fcb73903c541980d799263b68a05518e3b2a7)
+
 endif
