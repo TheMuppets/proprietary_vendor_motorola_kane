@@ -9,7 +9,7 @@ ifeq ($(TARGET_DEVICE),kane)
 $(call add-radio-file-sha1-checked,radio/bootloader.img,7387c08f6c7b15d3ac89d8b5f51f6dc714a93e84)
 $(call add-radio-file-sha1-checked,radio/keystorage.img,a2bbccb3162dcc5110ee8e7dacc773e40f49d17b)
 $(call add-radio-file-sha1-checked,radio/ldfw.img,71ad284e17a92bbe2b9b8c60ce89d88fe9819bfc)
-$(call add-radio-file-sha1-checked,radio/logo.img,a3b4ae8efb59a592c18bb40072656f868d154811)
+$(call add-radio-file-sha1-checked,radio/logo.img,5d28da59122b2f87a745f11b4a334586e396bfba)
 $(call add-radio-file-sha1-checked,radio/modem.img,788942193603b667b934eed585ea1820ee993ff5)
 
 endif
