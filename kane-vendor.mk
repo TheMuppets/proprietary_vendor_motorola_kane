@@ -31,5 +31,4 @@ PRODUCT_PACKAGES += \
     camera.exynos9610 \
     sensors.kane_sprout \
     libexynoscamera3 \
-    libhwjpeg_vendor \
     sensors.chub
