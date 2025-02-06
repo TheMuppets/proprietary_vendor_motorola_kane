@@ -28,7 +28,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/kane/proprietary/vendor/firmware/setfile_gm1sp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gm1sp.bin
 
 PRODUCT_PACKAGES += \
-    camera.exynos9610 \
     sensors.kane_sprout \
-    libexynoscamera3 \
     sensors.chub
